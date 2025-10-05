@@ -133,7 +133,7 @@ body {
 .carousel__container {
   margin-top: 6.25rem;
   background-color: #f0d8b8;
-  height: clamp(200px, 26.042vw, 600px);
+  height: clamp(250px, 26.042vw, 600px);
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -158,14 +158,15 @@ body {
 }
 .carousel {
   display: flex;
-  gap: 1.25rem;
+  gap: 30px;
   animation: carousel 15s linear infinite;
 }
 .carousel img {
-  width: clamp(200px, 26.042vw, 600px);
+  width: clamp(150px, 15.625vw, 600px);
   height: auto;
   border-radius: 20px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.08);
+  object-fit: cover;
 }
 @keyframes carousel {
   0% {
